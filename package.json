@@ -1,0 +1,32 @@
+{
+  "name": "cra-template-typescript-sass-eslint-prettier",
+  "version": "1.0.0",
+  "description": "TypeScript template for Create React App, including Sass, ESLint and Prettier configuration.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cufarvid/cra-template-typescript-sass-eslint-prettier.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cufarvid/cra-template-typescript-sass-eslint-prettier/issues"
+  },
+  "homepage": "https://github.com/cufarvid/cra-template-typescript-sass-eslint-prettier#readme",
+  "keywords": [
+    "react",
+    "create-react-app",
+    "template",
+    "typescript",
+    "sass",
+    "scss",
+    "prettier",
+    "eslint"
+  ],
+  "author": "Vid Čufar",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14"
+  },
+  "files": [
+    "template",
+    "template.json"
+  ]
+}
