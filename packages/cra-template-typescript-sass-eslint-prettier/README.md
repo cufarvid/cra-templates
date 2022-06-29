@@ -1,4 +1,4 @@
-# cra-template-ts-prettier-eslint
+# cra-template-typescript-sass-eslint-prettier
 
 TypeScript template for [Create React App](https://github.com/facebook/create-react-app), including Sass, ESLint and Prettier configuration.
 
