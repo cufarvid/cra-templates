@@ -1,32 +1,27 @@
 {
-  "name": "cra-template-typescript-sass-eslint-prettier",
+  "name": "cra-templates",
   "version": "1.0.0",
-  "description": "TypeScript template for Create React App, including Sass, ESLint and Prettier configuration.",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/cufarvid/cra-template-typescript-sass-eslint-prettier.git"
-  },
-  "bugs": {
-    "url": "https://github.com/cufarvid/cra-template-typescript-sass-eslint-prettier/issues"
-  },
-  "homepage": "https://github.com/cufarvid/cra-template-typescript-sass-eslint-prettier#readme",
-  "keywords": [
-    "react",
-    "create-react-app",
-    "template",
-    "typescript",
-    "sass",
-    "scss",
-    "prettier",
-    "eslint"
-  ],
+  "description": "A collection of templates for Create React App",
   "author": "Vid Čufar",
+  "repository": "https://github.com/cufarvid/cra-templates.git",
   "license": "MIT",
-  "engines": {
-    "node": ">=14"
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "husky:prepare": "husky install",
+    "lerna:publish": "lerna publish",
+    "format": "prettier --write \"**/*.{ts,tsx,html,scss,json,md\"",
+    "format:check": "prettier --check \"**/*.{ts,tsx,html,scss,json,md}\""
   },
-  "files": [
-    "template",
-    "template.json"
-  ]
+  "lint-staged": {
+    "*.{ts,tsx,html,scss,json,md}": "prettier --write"
+  },
+  "devDependencies": {
+    "husky": ">=6",
+    "lerna": "^5.1.6",
+    "lint-staged": ">=10",
+    "prettier": "2.7.1"
+  }
 }
