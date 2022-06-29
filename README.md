@@ -1,20 +1,22 @@
-# cra-template-ts-prettier-eslint
+# cra-templates
 
-TypeScript template for [Create React App](https://github.com/facebook/create-react-app), including Sass, ESLint and Prettier configuration.
+A collection of templates for [Create React App](https://github.com/facebook/create-react-app).
 
-To use this template, add `--template typescript-sass-eslint-prettier` when creating a new app.
+## Templates
 
-For example:
+- `cra-template-minimal` - A minimal JavaScript template
+- `cra-template-minimal-typescript` - A minimal TypeScript template
+- `cra-template-empty` - A (nearly) empty JavaScript template
+- `cra-template-empty-typescript` - A (nearly) empty TypeScript template
+
+## Usage
+
+To use one of these templates add `--template <name>` when creating a new app:
 
 ```sh
-npx create-react-app my-app --template typescript-sass-eslint-prettier
+// create a new app with cra-template-minimal
+npx create-react-app my-app --template minimal
 
-# or
-
-yarn create react-app my-app --template typescript-sass-eslint-prettier
+// create a new app with cra-template-minimal-typescript
+npx create-react-app my-app --template minimal-typescript
 ```
-
-For more information, please refer to:
-
-- [Getting Started](https://create-react-app.dev/docs/getting-started) – How to create a new app.
-- [User Guide](https://create-react-app.dev) – How to develop apps bootstrapped with Create React App.
