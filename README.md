@@ -5,6 +5,7 @@ A collection of templates for [Create React App](https://github.com/facebook/cre
 ## Templates
 
 - `cra-template-typescript-sass-eslint-prettier` - TypeScript template, including Sass, ESLint and Prettier configuration.
+- `cra-template-typescript-tailwindcss-eslint-prettier` - TypeScript template, including TailwindCSS, ESLint and Prettier configuration.
 
 ## Usage
 

@@ -12,7 +12,7 @@
   "scripts": {
     "husky:prepare": "husky install",
     "lerna:publish": "lerna publish",
-    "format": "prettier --write \"**/*.{ts,tsx,html,scss,json,md\"",
+    "format": "prettier --write \"**/*.{ts,tsx,html,scss,json,md}\"",
     "format:check": "prettier --check \"**/*.{ts,tsx,html,scss,json,md}\""
   },
   "lint-staged": {
