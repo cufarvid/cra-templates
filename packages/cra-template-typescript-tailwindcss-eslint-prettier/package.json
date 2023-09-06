@@ -1,6 +1,6 @@
 {
   "name": "cra-template-typescript-tailwindcss-eslint-prettier",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "TypeScript template for Create React App, including TailwindCSS, ESLint and Prettier configuration.",
   "repository": {
     "type": "git",
